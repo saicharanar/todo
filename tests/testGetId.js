@@ -1,6 +1,6 @@
 const { makeTest, runTests, generateReport } = require('./testLib/testLib.js');
 const { deepEqual } = require('assert').strict;
-const { getId } = require('../src/todo.js');
+const { getId } = require('../src/todoLib.js');
 
 makeTest('gives 1', () => deepEqual(getId([]), 1));
 makeTest('gives 2', () => deepEqual(getId([{ id: 1 }]), 2));

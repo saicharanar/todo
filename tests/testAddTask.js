@@ -1,6 +1,6 @@
 const { makeTest, runTests, generateReport } = require('./testLib/testLib.js');
 const { deepEqual } = require('assert').strict;
-const { addTask } = require('../src/todo.js');
+const { addTask } = require('../src/todoLib.js');
 
 makeTest(
   'Should add the first task',
